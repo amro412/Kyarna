@@ -1,0 +1,166 @@
+body{
+    height: 100vh;
+    color: #000000;
+}
+/* -------------------------------------------------------------------------------------- */
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FF4500;
+    border-bottom: 2px solid #FF4500;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.dark-mode .fa-sun-o {
+    color: yellow;
+  }
+  
+  .dark-mode .fa-moon-o {
+    color: white;
+  }
+
+  .dark-mode-toggle {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .dark-mode {
+    background-color: #1F1F1F;
+    color: white;
+  }
+/* -------------------------------------------------------------------------------------- */
+.s0{
+    height: 20%;
+    padding-top: 4%;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#myBtnContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    background-color: #333;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 24px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn:hover {
+    background-color: #FF4500;
+    transform: scale(1.05);
+}
+
+.btn.active {
+    background-color: #FF4500;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        padding: 10px 14px;
+        font-size: 1rem;
+    }
+}
+
+/* -------------------------------------------------------------------------------------- */
+
+img{
+    height: 90%;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.col-4{
+    display: none;
+}
+
+.col-4.show {
+    display: block;
+}
+
+.s2{
+    margin-top: 4%;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer .fa {
+    font-size: 24px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+footer .fa:hover {
+    color: #d3d3d3;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .text-danger {
+    color: #FF4500 !important;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
